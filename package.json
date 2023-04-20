@@ -1,5 +1,5 @@
 {
-  "version": "5.5.103",
+  "version": "5.5.104",
   "license": "MIT",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
