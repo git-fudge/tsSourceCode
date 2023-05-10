@@ -10,14 +10,14 @@ Simple calculator API hosted on APIMATIC
 Run the following command from your project directory to install the package from npm:
 
 ```ts
-npm install my-unique-ts-package@1.1.999
+npm install my-unique-ts-package@1.11.996
 ```
 
-For additional package details, see the [Npm page for the my-unique-ts-package@1.1.999  npm](https://www.npmjs.com/package/my-unique-ts-package/v/1.1.999).
+For additional package details, see the [Npm page for the my-unique-ts-package@1.11.996  npm](https://www.npmjs.com/package/my-unique-ts-package/v/1.11.996).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://github.com/git-fudge/tsSourceCode/blob/1.1.999/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/git-fudge/tsSourceCode/tree/1.11.996/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -60,10 +60,10 @@ const client = new Client({
 
 ## List of APIs
 
-* [Simple Calculator](https://github.com/git-fudge/tsSourceCode/blob/1.1.999/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/git-fudge/tsSourceCode/tree/1.11.996/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiResponse](https://github.com/git-fudge/tsSourceCode/blob/1.1.999/doc/api-response.md)
-* [ApiError](https://github.com/git-fudge/tsSourceCode/blob/1.1.999/doc/api-error.md)
+* [ApiResponse](https://www.github.com/git-fudge/tsSourceCode/tree/1.11.996/doc/api-response.md)
+* [ApiError](https://www.github.com/git-fudge/tsSourceCode/tree/1.11.996/doc/api-error.md)
 
