@@ -38,16 +38,20 @@ async getCalculate(
 ## Example Usage
 
 ```ts
-const operation = 'MULTIPLY';
-const x = 222.14;
-const y = 165.14;
+const collect = {
+  operation: OperationTypeEnum.MULTIPLY,
+  x: 222.14,
+  y: 165.14
+}
 try {
-  const { result, ...httpResponse } = await simpleCalculatorController.getCalculate(operation, x, y);
+  async () => {
+    const { result,...httpResponse } = await simpleCalculatorController.getCalculate(collect);
   // Get more response info...
   // const { statusCode, headers } = httpResponse;
+  }
 } catch(error) {
   if (error instanceof ApiError) {
-    const errors = error.result;
+    const errors = error as ApiError;
     // const { statusCode, headers } = error;
   }
 }

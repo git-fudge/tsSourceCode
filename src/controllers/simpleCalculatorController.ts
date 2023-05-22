@@ -21,10 +21,15 @@ export class SimpleCalculatorController extends BaseController {
    * @param y         The RHS value
    * @return Response from the API call
    */
-  async getCalculate(
+  async getCalculate({
+    operation,
+    x,
+    y,
+  }: {
     operation: OperationTypeEnum,
     x: number,
     y: number,
+  },
     requestOptions?: RequestOptions
   ): Promise<ApiResponse<number>> {
     const req = this.createRequest('GET');
